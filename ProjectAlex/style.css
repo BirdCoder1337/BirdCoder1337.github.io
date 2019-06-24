@@ -1,0 +1,284 @@
+body
+{
+	background-color: #efefef ;
+	background: url(images/white-waves.png);
+	margin:0;
+	padding: 0;
+	min-height: 100%;
+	font: 16px/24px Arial,Tahoma,sans-serif;
+
+}
+
+
+header
+{
+  position: fixed;
+	background-color:#0088de;
+	background-size: 100%;
+	height:70px;
+}
+
+topmenu 
+{
+
+	float: right;
+}
+.hello
+{
+  margin-right: 402px;
+  color: #FFA733;
+}
+topmenu a
+{
+  float: right;
+  margin-top: 25px;
+  margin-right: 70px;
+  text-decoration: none;
+  font-size: 30px;
+  color: white;
+
+
+}
+ topmenu a:hover
+{
+  color:#FFA733;
+}
+
+
+
+main
+{
+      padding-top: 50px;
+    	background:url(images/white-waves.png);
+    	height: 500px;
+}
+
+
+.test
+{
+  padding-top: 45px;
+  padding-left: 680px;
+}
+.test p ,ul
+{
+  color: #0088de;
+}
+.test h2
+{
+  color:#FFA733;;
+}
+
+
+.photonumber1
+{
+
+  float: left;
+  display:inline-block;
+	border-radius: 50px;
+	margin-left: 50px;
+	margin-top: 40px;
+  
+
+
+}
+
+}
+.textmain
+{
+	text-align: right;
+	margin-top: 20px;
+}
+article
+{
+		background-color:#0088de;
+		height: 900px;
+}
+.creation p
+{
+	text-align: center;
+	color: white;
+	padding: 30px;
+	font-size: 30px;
+}
+
+.photonumber2
+{
+	margin-left: 30px;
+	border-radius: 50px;
+	 
+}
+.Game
+{
+	margin-left: 110px;
+	color:white;
+	font-size: 20px;
+
+}
+
+/*Кнопки + Картинки*/
+.switchers
+      {
+          font-size: 0; /* чтоб у img прилегал к блоку вплотную, а не лежал на базовой линии strut */
+          text-align: center;
+          position: relative;
+     /*   background: RGBA(125, 155, 75, .5); /*чтоб смотреть размеры контейнера*/
+      }
+.switchers input + label > img
+      { display: none; }
+.switchers input:checked + label > img
+      { display: block; }
+.switchers input[type = 'radio'], .switchers input[type = 'checkbox']
+    {   display: none;  }
+.switchers label
+    {display: inline-block;}
+.switchers label.key
+    {
+        display: block;
+        position: absolute;
+        width: 10px; height: 10px;  border-radius: 50%;
+        top: 85%;/* left: 40%;*/
+        background: black;
+        box-shadow: 0 0 0 2px white;        
+    }
+label[for = 'river']
+     {  left: 45%; }
+label[for = 'forest']
+     {  left: 50%;  }
+label[for = 'floral']
+     {  left: 55%;  }
+
+.switchers label.key:hover
+     {  cursor: pointer;  }
+.switchers input[value = 'river']:checked ~ label[for = river],
+.switchers input[value = 'forest']:checked ~ label[for = forest],
+.switchers input[value = 'floral']:checked ~ label[for = floral],
+
+    {
+        background: red;
+        box-shadow: 0 0 7px 6px white;
+    }
+.switchers label > img
+    {
+        width: 600px;
+    }
+.youthclass
+{
+	border-radius: 50px;
+	width: 500px;
+	height: 300px;
+}
+
+.schoolphoto
+{
+	color: white;
+	text-align: center;
+
+}
+
+
+
+/*Кнопки + Картинки*/
+.switchers1
+      {
+          font-size: 0; /* чтоб у img прилегал к блоку вплотную, а не лежал на базовой линии strut */
+          text-align: center;
+          position: relative;
+     /*   background: RGBA(125, 155, 75, .5); /*чтоб смотреть размеры контейнера*/
+      }
+.switchers1 input + label > img
+      { display: none; }
+.switchers1 input:checked + label > img
+      { display: block; }
+.switchers1 input[type = 'radio'], .switchers1 input[type = 'checkbox']
+    {   display: none;  }
+.switchers1 label
+    {display: inline-block;}
+.switchers1 label.key1
+    {
+        display: block;
+        position: absolute;
+        width: 10px; height: 10px;  border-radius: 50%;
+        top: 85%;/* left: 40%;*/
+        background: black;
+        box-shadow: 0 0 0 2px white;        
+    }
+label[for = 'game']
+     {  left: 48%; }
+label[for = 'forest1']
+     {  left: 51%;  }
+
+.switchers1 label.key1:hover
+     {  cursor: pointer;  }
+.switchers1 input[value = 'game']:checked ~ label[for = game],
+.switchers1 input[value = 'forest1']:checked ~ label[for = forest1],
+
+
+    {
+        background: red;
+        box-shadow: 0 0 7px 6px white;
+    }
+.switchers1 label > img
+    {
+        width: 600px;
+    }
+.gameclass
+{
+
+	border-radius: 50px;
+	width: 600px;
+	height: 300px;
+}
+
+.gametext
+{
+
+	color: white;
+	text-align: center;
+}
+
+footer
+{
+  	height:10px;
+  	padding:px;
+	}
+
+.link
+{
+	margin-top: px;
+	margin-left: 10px;
+	border-radius: 50px;
+	float: right;
+      padding-top: 0;
+	width: 80px;
+	height: 40px;
+}
+
+
+
+
+
+  .layer1 {/* Цвет фона слоя */
+    margin-top: px;
+    color: #0088de;
+    padding-top: 0;
+    float: left; /* Обтекание по правому краю */ 
+    margin-left: 30px;
+   }
+   .layer2 {
+   /* Цвет фона слоя */
+    margin-top: px;
+        padding-top: 0;
+      color: #0088de;
+
+    float: right; /* Обтекание по правому краю */
+}
+.layer3
+{
+  color: #0088de;
+
+}
+h2
+{
+  margin:0;
+  padding: 0;
+}
